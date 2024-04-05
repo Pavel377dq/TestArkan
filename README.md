@@ -1,1 +1,1 @@
-хостинг приложения -  https://agile-list-qxpwbpoal-pavel377dqs-projects.vercel.app 
+С…РѕСЃС‚РёРЅРі РїСЂРёР»РѕР¶РµРЅРёСЏ - https://agile-list-ay2py69q5-pavel377dqs-projects.vercel.app/
