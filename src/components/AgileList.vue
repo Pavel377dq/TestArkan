@@ -28,11 +28,18 @@ export default {
   name: 'AgileList',
   data() {
     return {
-      innerListTop: [1, 2, 3, 4],
+      innerListTop: [],
       innerListMiddle: [],
       innerListBottom: []
     }
   },
+ mounted() {
+  fetch('data.json')
+    .then(res => res.json())
+    .then(data=> {this.innerListTop = data.list});
+  
+ // console.log(res);
+},
   methods: {
     upOneTop() {
       if (this.innerListMiddle.length) {
