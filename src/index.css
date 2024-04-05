@@ -1,0 +1,31 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 250px;
+}
+
+ul{
+  margin: 20px auto;
+  height: 100px;
+  display: flex;
+  list-style-type: none;
+  border: 2px solid rgb(74, 91, 185);
+}
+
+li{
+
+  width: 40px;
+  height: 40px;
+  background-color: rgb(74, 91, 185);
+  border: 2px solid rgb(21, 205, 92);
+  line-height: 40px;
+  font-weight: bolder;
+}
